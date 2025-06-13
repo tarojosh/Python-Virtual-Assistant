@@ -1,0 +1,59 @@
+message,intent
+"hello",greeting
+"hi",greeting
+"hey",greeting
+"hey there",greeting
+"hello there",greeting
+"hows it going?",greeting
+"how are you?",greeting
+"how are you doing?",greeting
+"greetings",greeting
+
+"what time is it?",check_time
+"do you know what the time is?",check_time
+"check the watch",check_time
+"can you check your watch?",check_time
+"what day is it?",check_time
+"do you know what day it is?",check_time
+"what year is it?",check_time
+"do you know what year it is?",check_time
+
+"how is the weather today?",weather
+"can you check the weather?",weather
+"what is the weather like today?",weather
+"is it going to rain today?",weather
+"is it going to be sunny today?",weather
+"do i need to bring an umbrella?",weather
+"is it a good day to go outside?",weather
+"will it rain this evening?",weather
+"will it snow this evening?",weather
+"will it rain this afternoon?",weather
+"will it snow this afternoon?",weather
+"is it going to be cloudy?",weather
+
+"can you tell me a joke?",joke
+"do you have any funny jokes?",joke
+"entertain me",joke
+"tell me a joke",joke
+"tell me a funny joke",joke
+"i am feeling very bored",joke
+
+"can you define what",wiki_search
+"can you tell me what this is about?",wiki_search
+"can you do a wiki search for", wiki_search
+"could you look up something for me?",wiki_search
+"can you look up",wiki_search
+"can you tell me what is",wiki_search
+"tell me what",wiki_search
+"what is",wiki_search
+"what are",wiki_search
+"who is",wiki_search
+"who are",wiki_search
+"who are the",wiki_search
+
+"goodbye",exit
+"quit",exit
+"bye",exit
+"see you",exit
+"see ya",exit
+"see you later",exit

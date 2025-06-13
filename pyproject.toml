@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "PythonVirtualAssistant"
+version = "0.0.1"
+description = "A virtual assistant made in Python."
+authors = ["Josh Tarongoy"]
+readme = "README.md"
+packages = [
+  { include = "src" },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.14"
+pyjokes = "==0.8.3"
+scikit-learn = ">=1.7.0"
+pandas = ">=2.3.0"
+wikipedia = "==1.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
